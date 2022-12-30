@@ -27,7 +27,7 @@ header {
     text-shadow: 5px 5px rgb(32, 56, 41);
 }
 
-.start-button, .next-button{
+.start-button {
     border-style:double;
     border-width: 10px;
     border-radius: 2em;
@@ -83,6 +83,54 @@ align-items: center;
 
 .hide {
     display: none;
+}
+
+#timer {
+    border-style:double;
+    border-width: 10px;
+    border-radius: 2em;
+    border-width: 0.5em;
+    border-color: antiquewhite;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(61, 109, 79);
+    color: antiquewhite;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    margin-bottom: 10%;
+    
+    
+}
+
+.scores {
+    font-size: 32px;
+    margin: 10%;
+    font-weight: bolder;
+    color: rgb(61, 109, 79);
+    text-decoration: none;
+    cursor: pointer;
+    transition: ease .3s;
+}
+
+.points {
+    font-size: 32px;
+    margin: 10%;
+    font-weight: bolder;
+    color: rgb(61, 109, 79);
+    text-decoration: none;
+}
+
+#retry {
+    margin: 10%;
+}
+
+.scores:hover {
+    text-shadow: 2px 7px 10px rgba(32, 56, 41, 0.479);
 }
 
 
