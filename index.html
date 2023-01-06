@@ -9,27 +9,35 @@
   </head>
   <body>
     <header>
-      <h1>Javascript Quiz</h1>
+      <h1 id="h1">Javascript Quiz</h1>
     </header>
     <main>
       <div class="container" id="container">
         <div id="question-box" class="hide">
           <div id="question"></div>
-          <div id="answer-button" class="button-grid">
-          </div>
+          <div id="answer-button" class="button-grid"></div>
         </div>
         <button class="start-button">Start</button>
       </div>
       <div id="timer">Good Luck!</div>
       <div id="points" class="points"></div>
-      <a
-        class="scores hide"
-        id="scores"
-        target="_blank"
-        href="./scoreboard.html"
-        >High Scores
-      </a>
-      <div>
+      <form action="" id="submit" method="post">
+        <input
+          type="text"
+          id="nameinput"
+          class="name hide"
+          value
+          placeholder="Enter your name here"
+        />
+        <button class="submitbtn hide" id="submitbtn">Submit</button>
+
+      </form>
+      <a class="scores hide" id="scores">High Scores </a>
+      <div class="leaderboard hide" id="leaderboard">
+        <div id="scorelist"></div>
+        
+      </div>
+      <div class="retry">
         <button class="btn hide" id="retry">RETRY</button>
       </div>
     </main>
