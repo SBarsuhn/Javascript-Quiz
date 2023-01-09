@@ -77,7 +77,7 @@ button:hover {
 }
 
 .submitbtn {
-    border-style: double;
+  border-style: double;
   border-width: 10px;
   border-radius: 1.5em;
   border-width: 0.5em;
@@ -98,6 +98,23 @@ button:hover {
 
 .hide {
   display: none;
+}
+
+#question {
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 15px;
+  border-style: double;
+  border-width: 10px;
+  border-radius: 1.5em;
+  border-width: 0.5em;
+  border-color: antiquewhite;
+  background-color: rgb(61, 109, 79);
+  color: antiquewhite;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #timer {
@@ -157,7 +174,8 @@ button:hover {
  border-width: 0.25em;
  border-color: antiquewhite;
  color: antiquewhite;
- text-shadow: 5px 5px rgb(32, 56, 41);
+ user-select: none;
+ -webkit-user-select: none;
 
 }
 
@@ -170,6 +188,11 @@ span {
   margin-top: 10px;
  
 
+}
+
+.incorrect {
+  background-color: brown;
+  opacity: 50;
 }
 
 
