@@ -6,7 +6,7 @@ This project is a "quiz" made with javascript. The answers are given to you so t
 
 ## Installation
 
-There is no instilation required. Just go to the website and press start to begin.
+There is no instilation required. Just go to the website and press start to begin. https://sbarsuhn.github.io/Javascript-Quiz/
 
 ## Usage
 
